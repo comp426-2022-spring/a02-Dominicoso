@@ -1,5 +1,5 @@
 // Import the coinFlip function from your coin.mjs file
-import 'coin.mjs'
+import './modules/coin.mjs'
 // Call the coinFlip function and put the return into STDOUT
 
 console.log(coinFlip());
