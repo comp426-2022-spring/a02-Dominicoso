@@ -15,7 +15,7 @@
  */
 
 export function coinFlip() {
-  const result = 0 == Math.random() ? "heads" : "tails"
+  const result = (0 == Math.round(Math.random()) ? "heads" : "tails")
   return result
 }
 
