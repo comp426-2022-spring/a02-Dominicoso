@@ -13,7 +13,7 @@ let options = ['heads', 'tails']
 
 // add an error message here if argument is not 'head' or 'tails'
 if (options.includes(args.call)) {
-    console.log(flipACoin(call))
+    console.log(flipACoin(args.call))
 } else {
     console.error('Error: no input.')
     console.log('Usage: node guess-flip --call=[heads|heads]')
